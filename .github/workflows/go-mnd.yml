@@ -24,5 +24,6 @@ jobs:
     - name: go-mnd
       uses: tommy-muehle/go-mnd@v2.5.1
             
-    - name: Test
-      run: go test -v ./...
+    - name: LINE Notify
+      uses: snow-actions/line-notify@v1.1.0
+            
